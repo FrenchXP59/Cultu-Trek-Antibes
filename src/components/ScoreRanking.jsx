@@ -1,4 +1,3 @@
-// src/components/ScoreRanking.jsx
 import React, { useEffect, useState } from "react";
 
 const ScoreRanking = ({ onRestart, onReturnToGame }) => {
@@ -69,6 +68,30 @@ const ScoreRanking = ({ onRestart, onReturnToGame }) => {
         >
           🔄 Rejouer une partie
         </button>
+      </div>
+
+      {/* ----- NOUVEAUTÉ : Buy Me a Coffee ----- */}
+      <div style={{ marginTop: "32px", textAlign: "center" }}>
+        <a
+          href="https://buymeacoffee.com/lescarnetsduo"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: "inline-block",
+            backgroundColor: "#FFDD00",
+            color: "#333",
+            fontWeight: "bold",
+            padding: "10px 16px",
+            borderRadius: "6px",
+            textDecoration: "none",
+            boxShadow: "0 2px 4px rgba(0,0,0,0.2)",
+            transition: "background-color 0.2s ease",
+          }}
+          onMouseEnter={e => (e.currentTarget.style.backgroundColor = "#FCCC00")}
+          onMouseLeave={e => (e.currentTarget.style.backgroundColor = "#FFDD00")}
+        >
+          ☕ Soutenez ce projet : buymeacoffee.com/lescarnetsduo
+        </a>
       </div>
     </div>
   );
