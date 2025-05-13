@@ -310,7 +310,7 @@ export const PLACES_DATA = [
         bonne_reponse: "Propriétés antibactériennes"
       }
     ],
-    defi: "Descendez dans le bar (s’il est ouvert) et prenez une photo originale avec les accessoires rétro : chapeau melon, fontaine à absinthe ou miroir ancien.",
+    defi: "Trouvez l'ancien puits romain dans le sous-sol voûté et décrivez sa reconversion actuelle.",
     infoShort: "25 Cr Masséna, 06600 Antibes",
     infoLong: "Le Bar à Absinthe d’Antibes vous plonge dans une ambiance Belle Époque. Situé dans une cave voûtée du IXe siècle, ce lieu insolite propose de redécouvrir l’absinthe, interdite en France jusqu’en 2011.",
     infoPlus: "Objets anciens, musiques d’époque et déguisements vous permettent de remonter le temps. L’absinthe y est servie selon le rituel classique, avec fontaine à eau, cuillère ajourée et sucre.",
